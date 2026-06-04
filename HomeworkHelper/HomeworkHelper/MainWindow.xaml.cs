@@ -23,7 +23,7 @@ namespace HomeworkHelper
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            OutputTextBlock.Text = "You entered: " + InputTextBox.Text;
+            OutputTextBlock.Text = ": " + InputTextBox.Text;
         }
     }
 }

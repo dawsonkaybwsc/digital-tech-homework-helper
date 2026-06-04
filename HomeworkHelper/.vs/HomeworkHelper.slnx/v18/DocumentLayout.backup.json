@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\",
+  "WorkspaceRootPath": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|c:\\users\\johna\\source\\repos\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|c:\\users\\ben\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|solutionrelative:homeworkhelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|c:\\users\\ben\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|solutionrelative:homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -19,11 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HomeworkHelper\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "HomeworkHelper\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T21:31:06.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
               "RelativeDocumentMoniker": "HomeworkHelper\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
-              "RelativeToolTip": "HomeworkHelper\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml*",
+              "RelativeToolTip": "HomeworkHelper\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-06-04T03:56:16.676Z",
               "EditorCaption": ""

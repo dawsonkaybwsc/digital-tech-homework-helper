@@ -8,19 +8,24 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\johna\\.nuget\\packages\\": {}
+    "C:\\Users\\ben\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
+      "projectUniqueName": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
       "projectName": "HomeworkHelper",
-      "projectPath": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
-      "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\",
+      "projectPath": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
+      "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ben\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
