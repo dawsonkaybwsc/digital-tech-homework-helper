@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +19,11 @@ namespace HomeworkHelper
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            OutputTextBlock.Text = "You entered: " + InputTextBox.Text;
         }
     }
 }

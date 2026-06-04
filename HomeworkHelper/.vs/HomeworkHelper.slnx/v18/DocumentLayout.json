@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|c:\\users\\johna\\source\\repos\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C9ED0BE-70C4-6FFC-17A8-DA31A5EFC34C}|HomeworkHelper\\HomeworkHelper.csproj|solutionrelative:homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HomeworkHelper\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
+              "RelativeToolTip": "HomeworkHelper\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-04T03:56:16.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
