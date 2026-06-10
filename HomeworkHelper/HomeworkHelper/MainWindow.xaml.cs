@@ -11,9 +11,6 @@ using System.Windows.Shapes;
 
 namespace HomeworkHelper
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -23,7 +20,7 @@ namespace HomeworkHelper
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            OutputTextBlock.Text = ": " + InputTextBox.Text;
+            OutputTextBlock.Text = "Output: " + InputTextBox.Text;
         }
     }
 }
