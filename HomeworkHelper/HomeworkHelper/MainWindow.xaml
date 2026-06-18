@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeworkHelper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="750" Width="900">
     <Grid Margin="20">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
             <TextBlock Text="Homework Helper" FontSize="22" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center" Foreground="#333333"/>
             
             <TextBlock Text="Enter your question:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <TextBox Name="InputTextBox" Height="30" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="12"/>
+            <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="14"/>
             
-            <Button Name="SubmitButton" Content="Submit" Height="30" Width="110" Margin="0,0,0,20" Click="SubmitButton_Click" FontSize="13" FontWeight="SemiBold"/>
+            <Button Name="SubmitButton" Content="Submit" Height="35" Width="130" Margin="0,0,0,20" Click="SubmitButton_Click" FontSize="13" FontWeight="SemiBold"/>
             
-            <TextBlock Text="Output:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
+            <TextBlock Text="Output: " FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8">
-                <TextBlock Name="OutputTextBlock" Height="60" TextWrapping="Wrap" FontSize="14" Foreground="#333333" Text="..."/>
+                <TextBlock Name="OutputTextBlock" Height="270" TextWrapping="Wrap" FontSize="14" Foreground="#333333" Text="Output:"/>
             </Border>
         </StackPanel>
     </Grid>
