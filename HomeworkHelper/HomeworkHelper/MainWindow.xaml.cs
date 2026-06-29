@@ -1,13 +1,6 @@
-using System.Text;
+using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace HomeworkHelper
 {
@@ -18,9 +11,42 @@ namespace HomeworkHelper
             InitializeComponent();
         }
 
-        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        private async void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            OutputTextBlock.Text = "Output: " + InputTextBox.Text;
+            string question = InputTextBox.Text?.Trim() ?? string.Empty;
+            if (string.IsNullOrWhiteSpace(question))
+            {
+                MessageBox.Show("Please enter a question before submitting.", "Input Required", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            string selectedModel = "google/gemini-2.5-flash";
+            if (ModelComboBox.SelectedItem is ComboBoxItem selectedItem && selectedItem.Tag is string modelTag)
+            {
+                selectedModel = modelTag;
+            }
+
+            SubmitButton.IsEnabled = false;
+            InputTextBox.IsEnabled = false;
+            ModelComboBox.IsEnabled = false;
+            OutputTextBox.Text = "Thinking, wait please";
+
+            try
+            {
+                var service = new OpenRouterService();
+                string answer = await service.GetCompletionAsync(question, selectedModel);
+                OutputTextBox.Text = answer;
+            }
+            catch (Exception ex)
+            {
+                OutputTextBox.Text = $"A unexpected error has occurred:\n{ex.Message}";
+            }
+            finally
+            {
+                SubmitButton.IsEnabled = true;
+                InputTextBox.IsEnabled = true;
+                ModelComboBox.IsEnabled = true;
+            }
         }
     }
 }

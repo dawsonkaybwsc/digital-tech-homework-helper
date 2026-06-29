@@ -10,14 +10,22 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
             <TextBlock Text="Homework Helper" FontSize="22" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center" Foreground="#333333"/>
             
+            <TextBlock Text="Select AI Model:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
+            <ComboBox Name="ModelComboBox" Height="30" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="13">
+                <ComboBoxItem Content="Gemini 2.5 Flash" Tag="google/gemini-2.5-flash"/>
+                <ComboBoxItem Content="GPT-4o Mini" Tag="openai/gpt-4o-mini"/>
+                <ComboBoxItem Content="DeepSeek Chat" Tag="deepseek/deepseek-chat"/>
+                <ComboBoxItem Content="Llama 3 8B (Free)" Tag="meta-llama/llama-3-8b-instruct:free"/>
+            </ComboBox>
+
             <TextBlock Text="Enter your question:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="14"/>
             
             <Button Name="SubmitButton" Content="Submit" Height="35" Width="130" Margin="0,0,0,20" Click="SubmitButton_Click" FontSize="13" FontWeight="SemiBold"/>
             
             <TextBlock Text="Output: " FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8">
-                <TextBlock Name="OutputTextBlock" Height="270" TextWrapping="Wrap" FontSize="14" Foreground="#333333" Text="Output:"/>
+            <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8" Height="270">
+                <TextBox Name="OutputTextBox" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontSize="14" Foreground="#333333" Background="Transparent" BorderThickness="0" Text="Output:"/>
             </Border>
         </StackPanel>
     </Grid>
