@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\openrouterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:openrouterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\obj\\debug\\net9.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:obj\\debug\\net9.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|c:\\users\\jef\\onedrive\\documents\\github\\digital-tech-homework-helper\\homeworkhelper\\homeworkhelper\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB941F62-4DEE-1707-C018-6D26F6774631}|HomeworkHelper.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-01T02:00:38.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\Debug\\net9.0-windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\Debug\\net9.0-windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0-windows\\App.g.i.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADgvz8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T02:05:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T02:04:57.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T02:05:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OpenRouterService.cs",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\OpenRouterService.cs",
+              "RelativeDocumentMoniker": "OpenRouterService.cs",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\OpenRouterService.cs",
+              "RelativeToolTip": "OpenRouterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T02:00:41.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-01T02:04:53.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\jef\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T02:05:18.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

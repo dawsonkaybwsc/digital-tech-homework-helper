@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HomeworkHelper",
+    "\\HomeworkHelper\\HomeworkHelper",
+    "\\HomeworkHelper\\HomeworkHelper\\bin",
+    "\\HomeworkHelper\\HomeworkHelper\\bin\\Debug",
+    "\\HomeworkHelper\\HomeworkHelper\\bin\\Debug\\net9.0-windows",
+    "\\HomeworkHelper\\HomeworkHelper\\bin\\Release",
+    "\\HomeworkHelper\\HomeworkHelper\\bin\\Release\\net9.0-windows",
+    "\\HomeworkHelper\\HomeworkHelper\\obj",
+    "\\HomeworkHelper\\HomeworkHelper\\obj\\Release",
+    "\\HomeworkHelper\\HomeworkHelper\\obj\\Release\\net9.0-windows"
+  ],
+  "SelectedNode": "\\HomeworkHelper\\HomeworkHelper\\bin\\Debug\\HomeworkHelper.exe",
+  "PreviewInSolutionExplorer": false
+}

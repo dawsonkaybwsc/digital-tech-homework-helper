@@ -11,7 +11,7 @@ namespace HomeworkHelper
             InitializeComponent();
         }
 
-        private async void SubmitButton_Click(object sender, RoutedEventArgs e)
+        private async void Submit_Click(object sender, RoutedEventArgs e)
         {
             string question = InputTextBox.Text?.Trim() ?? string.Empty;
             if (string.IsNullOrWhiteSpace(question))
@@ -26,7 +26,7 @@ namespace HomeworkHelper
                 selectedModel = modelTag;
             }
 
-            SubmitButton.IsEnabled = false;
+            Submit.IsEnabled = false;
             InputTextBox.IsEnabled = false;
             ModelComboBox.IsEnabled = false;
             OutputTextBox.Text = "Thinking, wait please";
@@ -43,7 +43,7 @@ namespace HomeworkHelper
             }
             finally
             {
-                SubmitButton.IsEnabled = true;
+                Submit.IsEnabled = true;
                 InputTextBox.IsEnabled = true;
                 ModelComboBox.IsEnabled = true;
             }
