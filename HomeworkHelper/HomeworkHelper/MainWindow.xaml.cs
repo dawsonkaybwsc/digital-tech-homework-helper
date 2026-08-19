@@ -33,7 +33,7 @@ namespace HomeworkHelper
 
             try
             {
-                var service = new OpenRouterService();
+                var service = new OpenRouterApi();
                 string answer = await service.GetCompletionAsync(question, selectedModel);
                 OutputTextBox.Text = answer;
             }
