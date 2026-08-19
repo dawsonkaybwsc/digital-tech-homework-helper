@@ -20,7 +20,7 @@ namespace HomeworkHelper
                 return;
             }
 
-            string selectedModel = "google/gemini-2.5-flash";
+            string selectedModel = "google/gemini 2.5 flash";
             if (ModelComboBox.SelectedItem is ComboBoxItem selectedItem && selectedItem.Tag is string modelTag)
             {
                 selectedModel = modelTag;
