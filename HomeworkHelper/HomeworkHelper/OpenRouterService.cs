@@ -25,7 +25,7 @@ namespace HomeworkHelper
         [property: JsonPropertyName("choices")] OpenRouterChoice[] Choices
     );
 
-    public class OpenRouterService
+    public class OpenRouterApi
     {
         private static readonly HttpClient _httpClient = new HttpClient();
         private const string ApiKey = "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";
