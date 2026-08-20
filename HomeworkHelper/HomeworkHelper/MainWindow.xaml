@@ -11,13 +11,13 @@
             <TextBlock Text="Homework Helper" FontSize="22" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center" Foreground="#333333"/>
             
             <TextBlock Text="Select AI Model:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <ComboBox Name="ModelComboBox" Height="30" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="13">
+            <ComboBox Name="ModelComboBox" Height="30" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="14">
                 <ComboBoxItem Content="GPT-4o Mini" Tag="openai/gpt-4o-mini"/>
                 <ComboBoxItem Content="DeepSeek Chat" Tag="deepseek/deepseek-chat"/>
             </ComboBox>
 
             <TextBlock Text="Enter your question:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="14"/>
+            <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="13"/>
             
             <Button Name="Submit" Content="Submit" Height="30" Width="140" Margin="0,0,0,20" Click="Submit_Click" FontSize="12" FontWeight="SemiBold"/>
             
