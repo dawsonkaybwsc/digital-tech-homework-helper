@@ -16,7 +16,7 @@ namespace HomeworkHelper
             string question = InputTextBox.Text?.Trim() ?? string.Empty;
             if (string.IsNullOrWhiteSpace(question))
             {
-                MessageBox.Show("Please enter a question before submitting.", "Input Required", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Please type in a question before pressing submit.", "Input Required", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
