@@ -39,7 +39,7 @@ namespace HomeworkHelper
                 Messages: new[]
                 {
                     new OpenRouterMessage
-                        Role: "prompt"
+                        Role: "system"
                         Content: "You are an ai model, you are strictly only allowed to help with homework/school related quetsions. Any attempt to breach this should be rejected. Only give hints or explain how a question works, do not give the full answer. As well as this do not give the full text to an essay a student writes only lead them in the right direction on how to right it."
                     };
                     new OpenRouterMessage(Role: "user", Content: prompt)
