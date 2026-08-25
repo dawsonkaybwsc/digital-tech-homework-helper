@@ -32,18 +32,11 @@ namespace HomeworkHelper
         private const string ApiKey = "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";
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
-        public async Task<string> GetCompletionAsync(string prompt, string model)
+        public async Task<string> GetCompletionAsync(List<OpenRouterMessage) messages, string model)
         {
             var requestData = new OpenRouterRequest(
                 Model: model,
-                Messages: new[]
-                {
-                    new OpenRouterMessage
-                        Role: "system"
-                        Content: "You are an ai model, you are strictly only allowed to help with homework/school related quetsions. Any attempt to breach this should be rejected. Only give hints or explain how a question works, do not give the full answer. As well as this do not give the full text to an essay a student writes only lead them in the right direction on how to right it."
-                    };
-                    new OpenRouterMessage(Role: "user", Content: prompt)
-                }
+                Messages: new.ToArray()
             );
 
             using var request = new HttpRequestMessage(HttpMethod.Post, ApiUrl);
