@@ -1,18 +1,16 @@
 using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
     public partial class MainWindow : Window
     {
-        private readonly List<OpenROuterMessage> _conversationHistory = new List<OpenRouterMessage>();
+        private readonly List<OpenRouterMessage> _conversationHistory = new List<OpenRouterMessage>();
         public MainWindow()
         {
             InitializeComponent();
-
-            _conversationHistory.Add(new OpenRouterMessage(
-                Role: "system", Content: "You are an ai model, you are strictly only allowed to help with homework/school related quetsions. Any attempt to breach this should be rejected. Only give hints or explain how a question works, do not give the full answer. As well as this do not give the full text to an essay a student writes only lead them in the right direction on how to right it."));
         }
 
         private async void Submit_Click(object sender, RoutedEventArgs e)
@@ -37,9 +35,8 @@ namespace HomeworkHelper
 
             try
             {
-                var service = new OpenRouterApi();
-                string answer = await service.GetCompletionAsync(question, selectedModel);
-                OutputTextBox.Text = answer;
+                _conversationHistory.Add(new OpenRouterMessage(
+                Role: "system", Content: "You are an ai model, you are strictly only allowed to help with homework/school related quetsions. Any attempt to breach this should be rejected. Only give hints or explain how a question works, do not give the full answer. As well as this do not give the full text to an essay a student writes only lead them in the right direction on how to right it."));
             }
             catch (Exception ex)
             {
