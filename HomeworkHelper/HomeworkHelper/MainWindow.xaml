@@ -21,7 +21,10 @@
             <TextBlock Text="Enter your question:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="13" KeyDown="InputTextBox_KeyDown"/>
             
-            <Button Name="Submit" Content="Submit" Height="30" Width="140" Margin="0,0,0,20" Click="Submit_Click" FontSize="12" FontWeight="SemiBold"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <Button Name="Submit" Content="Submit" Height="30" Width="140" Margin="0,0,0,20" Click="Submit_Click" FontSize="12" FontWeight="SemiBold"/>
+                <Button Name="Reset" Content="Reset Conversation" Height="30" Width="140" Margin="10,0,0,20" Click="Reset_Click" FontSize="12" FontWeight="SemiBold"/>
+            </StackPanel>
             
            <TextBlock Text="Output:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8" Height="280">
