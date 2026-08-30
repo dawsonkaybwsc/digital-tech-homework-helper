@@ -21,9 +21,8 @@ namespace HomeworkHelper
         private void ResetConversation()
         {
             _conversationHistory.Clear();
-            _conversationHistory.Add(new OpenRouterMessage("system", SystemPrompt));
-            Role: "system",
-            content: SystemPrompt
+            _conversationHistory.Add(new OpenRouterMessage(Role: "system",content: SystemPrompt
+            ));
         }
 
         private async void Submit_Click(object sender, RoutedEventArgs e)
@@ -36,7 +35,7 @@ namespace HomeworkHelper
             }
 
             string selectedModel = "openrouter/free";]
-            if (ModelComboBox.SelectedItem is ComboBoxItem selectedItem && selectedItem.Tag is string modelTag)
+            if (ModelComboBox.SelectedItem is ComboBoxItem selectedItem && selectedItem.Tag is string modelTag && !string.IsNullOrWhiteSpace(modelTag))
             {
                 selectedModel = modelTag;
             }
