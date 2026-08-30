@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="750" Width="900">
     <Grid Margin="20">
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
-            <TextBlock Text="Homework Helper" FontSize="22" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center" Foreground="#333333"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="480">
+            <TextBlock Text="Homework Helper" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center" Foreground="#333333"/>
             
             <TextBlock Text="Select AI Model:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <ComboBox Name="ModelComboBox" Height="30" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="14">
+            <ComboBox Name="ModelComboBox" Height="32" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="13">
                 <ComboBoxItem Content="GPT-4o Mini" Tag="openrouter/free"/>
                 <ComboBoxItem Content="DeepSeek Chat" Tag="openrouter/free"/>
             </ComboBox>
