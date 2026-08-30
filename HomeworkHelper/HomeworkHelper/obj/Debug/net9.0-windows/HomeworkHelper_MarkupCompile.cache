@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\jef\OneDrive\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\
+C:\Users\mtrxc\OneDrive\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\
 HomeworkHelper
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-C:\Users\jef\OneDrive\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\App.xaml
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\mtrxc\OneDrive\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\App.xaml
 11407045341
 
 5-1996015200
-200-423684338
+200-1147531523
 MainWindow.xaml;
 
 False
