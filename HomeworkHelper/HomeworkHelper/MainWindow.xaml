@@ -13,11 +13,13 @@
             <TextBlock Text="Select AI Model:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <ComboBox Name="ModelComboBox" Height="32" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="13">
                 <ComboBoxItem Content="OpenRouter Free" Tag="openrouter/free"/>
-                <ComboBoxItem Content="DeepSeek Chat" Tag="openrouter/free"/>
+                <ComboBoxItem Content="Nvidia Nemotron" Tag="nvidia/nemotron-3.5-lightning:free"/>
+                <ComboBoxItem Content="North Mini" Tag="cohere/north-mini-code:free"/>
+                <ComboBoxItem Content="MiniMax" Tag="minimax/minimax-m2.7:free"/>
             </ComboBox>
 
             <TextBlock Text="Enter your question:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="13"/>
+            <TextBox Name="InputTextBox" Height="35" Padding="5" Margin="0,0,0,15" VerticalContentAlignment="Center" FontSize="13" KeyDown="InputTextBox_KeyDown"/>
             
             <Button Name="Submit" Content="Submit" Height="30" Width="140" Margin="0,0,0,20" Click="Submit_Click" FontSize="12" FontWeight="SemiBold"/>
             
