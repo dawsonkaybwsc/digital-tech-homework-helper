@@ -15,6 +15,15 @@ namespace HomeworkHelper
         public MainWindow()
         {
             InitializeComponent();
+            ResetConversation();
+        }
+
+        private void ResetConversation()
+        {
+            _conversationHistory.Clear();
+            _conversationHistory.Add(new OpenRouterMessage("system", SystemPrompt));
+            Role: "system",
+            content: SystemPrompt
         }
 
         private async void Submit_Click(object sender, RoutedEventArgs e)
