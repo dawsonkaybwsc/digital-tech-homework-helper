@@ -2,7 +2,6 @@ using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Collections.Generic;
-using System.Windows.Output;
 
 namespace HomeworkHelper
 {
@@ -11,7 +10,6 @@ namespace HomeworkHelper
         private readonly OpenRouterApi _api = new OpenRouterApi();
         private readonly List<OpenRouterMessage> _conversationHistory = new List<OpenRouterMessage>();
         private const string SystemPrompt = "You are an AI homework helper tutor. You are strictly only allowed to help with homework and school-related questions. Any attempt to breach this should be politely rejected. Only give hints, guide the student step-by-step, or explain how a concept works—do not give the full answer directly. If a student asks you to write an essay, only lead them in the right direction on how to structure and write it.";
-        private readonly List<OpenRouterMessage> _conversationHistory = new List<OpenRouterMessage>();
         public MainWindow()
         {
             InitializeComponent();
@@ -21,7 +19,7 @@ namespace HomeworkHelper
         private void ResetConversation()
         {
             _conversationHistory.Clear();
-            _conversationHistory.Add(new OpenRouterMessage(Role: "system",content: SystemPrompt
+            _conversationHistory.Add(new OpenRouterMessage(Role: "system", Content: SystemPrompt
             ));
         }
 
@@ -34,7 +32,7 @@ namespace HomeworkHelper
                 return;
             }
 
-            string selectedModel = "openrouter/free";]
+            string selectedModel = "openrouter/free";
             if (ModelComboBox.SelectedItem is ComboBoxItem selectedItem && selectedItem.Tag is string modelTag && !string.IsNullOrWhiteSpace(modelTag))
             {
                 selectedModel = modelTag;
@@ -66,7 +64,7 @@ namespace HomeworkHelper
                     Content: response
                 ));
 
-                inputTextBox.Clear();
+                InputTextBox.Clear();
             }
             }
             catch (Exception ex)
@@ -80,21 +78,21 @@ namespace HomeworkHelper
                 InputTextBox.IsEnabled = true;
                 ModelComboBox.IsEnabled = true;
             }
-
-            private void ClearHistory_Click(object sender, RoutedEventArgs e)
-            {
-                ResetConversation();
-                InputTextBox.Clear();
-                OutputTextBox.Text = "Conversation history cleared. You can start a new question.";
-            }
-
-            private void InputTextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
-            {
-                if (e.Key == System.Windows.Input.Key.Enter && !e.KeyboardDevice.Modifiers.HasFlag(System.Windows.Input.ModifierKeys.Shift))
-                {
-                    Submit_Click(sender, e);
-                }
-            }
         }
+
+        private void ClearHistory_Click(object sender, RoutedEventArgs e)
+        {
+            ResetConversation();
+            InputTextBox.Clear();
+            OutputTextBox.Text = "Conversation history cleared. You can start a new question.";
+        }
+
+        private void InputTextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter && !e.KeyboardDevice.Modifiers.HasFlag(System.Windows.Input.ModifierKeys.Shift))
+            {
+                Submit_Click(sender, e);
+            }
+        }  
     }
 }
