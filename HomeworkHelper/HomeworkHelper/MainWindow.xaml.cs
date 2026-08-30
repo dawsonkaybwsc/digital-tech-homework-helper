@@ -68,14 +68,10 @@ namespace HomeworkHelper
 
                 inputTextBox.Clear();
             }
-            else
-            {
-                MessageBox.Show(response, "API Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }   
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                OutputTextBox.Text = $"An unexpected error occurred: {ex.Message}";
             }
 
             finally
@@ -83,6 +79,13 @@ namespace HomeworkHelper
                 Submit.IsEnabled = true;
                 InputTextBox.IsEnabled = true;
                 ModelComboBox.IsEnabled = true;
+            }
+
+            private void ClearHistory_Click(object sender, RoutedEventArgs e)
+            {
+                ResetConversation();
+                InputTextBox.Clear();
+                OutputTextBox.Text = "Conversation history cleared. You can start a new question.";
             }
         }
     }
