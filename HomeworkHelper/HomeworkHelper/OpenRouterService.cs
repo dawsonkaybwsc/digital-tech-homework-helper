@@ -89,5 +89,14 @@ namespace HomeworkHelper
                 return $"Unexpected error: {ex.Message}";
             }
         }
+
+        public Task<string> GetCompletionWithHistoryAsync(List<OpenRouterMessage> messages, string model)
+        {
+            var messages = new List<OpenRouterMessage>(messages);
+            {
+                new openRouterMessage("user", prompt)
+            };
+            return GetCompletionAsync(messages, model);
+        }
     }
 }
