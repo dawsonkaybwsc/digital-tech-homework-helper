@@ -53,6 +53,7 @@ namespace HomeworkHelper
             try
             {
                 var response = await _httpClient.SendAsync(request);
+                var response = await response.Content.ReadAsStringAsync();
                 if (!response.IsSuccessStatusCode)
                 {
                     var errorContent = await response.Content.ReadAsStringAsync();
