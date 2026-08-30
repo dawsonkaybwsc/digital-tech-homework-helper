@@ -56,7 +56,19 @@ namespace HomeworkHelper
                 var responseBody = await response.Content.ReadAsStringAsync();
                 if (!response.IsSuccessStatusCode)
                 {
-                    var errorContent = await response.Content.ReadAsStringAsync();
+                    try
+                    {
+                        var errorContent = await response.Content.ReadAsStringAsync();
+                        if (!string.IsNullOrWhiteSpace(errorContent))
+                        {
+                            return $"API Error (Status {(int)response.StatusCode}): {errorContent}";
+                        }
+                    }
+                    catch
+                    {
+                        return $"API Error (Status {(int)response.StatusCode}): Unable to read error content.";
+                    }
+
                     return $"API Error (Status {(int)response.StatusCode}): {errorContent}";
                 }
 
