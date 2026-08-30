@@ -5,6 +5,9 @@ using System.Net.Http.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Linq;
+using System.Windows;
+using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
