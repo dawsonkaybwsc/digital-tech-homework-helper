@@ -6,8 +6,6 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows;
-using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
@@ -57,7 +55,7 @@ namespace HomeworkHelper
                 
                 if (!response.IsSuccessStatusCode)
                 {
-                   return $"API Error (Status {(int)response.StatusCode}): Unable to read error content.";
+                   return $"API Error (Status {(int)response.StatusCode}): {responseBody}";
                 }
                    
 
@@ -83,7 +81,7 @@ namespace HomeworkHelper
         {
             var messages = new List<OpenRouterMessage>
             {
-                new openRouterMessage("user", prompt)
+                new OpenRouterMessage("user", prompt)
             };
             return GetCompletionAsync(messages, model);
         }
