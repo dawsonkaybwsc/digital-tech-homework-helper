@@ -36,7 +36,7 @@ namespace HomeworkHelper
         private const string ApiKey = "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";
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
-        public async Task<string> GetCompletionAsync(string prompt, string model)
+       public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model)
         {
             var requestData = new OpenRouterRequest(
                 Model: model,
@@ -54,23 +54,12 @@ namespace HomeworkHelper
             {
                 var response = await _httpClient.SendAsync(request);
                 var responseBody = await response.Content.ReadAsStringAsync();
+                
                 if (!response.IsSuccessStatusCode)
                 {
-                    try
-                    {
-                        var errorContent = await response.Content.ReadAsStringAsync();
-                        if (!string.IsNullOrWhiteSpace(errorContent))
-                        {
-                            return $"API Error (Status {(int)response.StatusCode}): {errorContent}";
-                        }
-                    }
-                    catch
-                    {
-                        return $"API Error (Status {(int)response.StatusCode}): Unable to read error content.";
-                    }
-
-                    return $"API Error (Status {(int)response.StatusCode}): {errorContent}";
+                   return $"API Error (Status {(int)response.StatusCode}): Unable to read error content.";
                 }
+                   
 
                 var result = await response.Content.ReadFromJsonAsync<OpenRouterResponse>();
                 if (result?.Choices != null && result.Choices.Length > 0)
@@ -90,9 +79,9 @@ namespace HomeworkHelper
             }
         }
 
-        public Task<string> GetCompletionWithHistoryAsync(List<OpenRouterMessage> messages, string model)
+        public Task<string> GetCompletionAsync(string prompt, string model)
         {
-            var messages = new List<OpenRouterMessage>(messages);
+            var messages = new List<OpenRouterMessage>
             {
                 new openRouterMessage("user", prompt)
             };
