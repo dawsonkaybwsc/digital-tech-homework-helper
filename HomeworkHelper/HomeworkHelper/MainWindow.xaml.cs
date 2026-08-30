@@ -45,6 +45,39 @@ namespace HomeworkHelper
             ModelComboBox.IsEnabled = false;
             OutputTextBox.Text = "Thinking, wait please";
 
+            try
+            {
+                _conversationHistory.Add(new OpenRouterMessage(
+                Role: "user",
+                Content: question
+                ));
+            
+            string response = await _api.GetCompletionAsync(_conversationHistory, selectedModel);
+
+            OutputTextBox.Text = response;
+            
+            if (!response.StartsWith("API Error") &&
+                !response.StartsWith("Network Error") &&
+                !response.StartsWith("An unexpected error occurred"))
+
+            {
+                _conversationHistory.Add(new OpenRouterMessage(
+                    Role: "assistant",
+                    Content: response
+                ));
+
+                inputTextBox.Clear();
+            }
+            else
+            {
+                MessageBox.Show(response, "API Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }   
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
             finally
             {
                 Submit.IsEnabled = true;
