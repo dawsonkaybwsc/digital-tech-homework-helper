@@ -2,6 +2,7 @@ using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Collections.Generic;
+using System.Windows.Output;
 
 namespace HomeworkHelper
 {
@@ -33,15 +34,6 @@ namespace HomeworkHelper
             ModelComboBox.IsEnabled = false;
             OutputTextBox.Text = "Thinking, wait please";
 
-            try
-            {
-                _conversationHistory.Add(new OpenRouterMessage(
-                Role: "system", Content: "You are an ai model, you are strictly only allowed to help with homework/school related quetsions. Any attempt to breach this should be rejected. Only give hints or explain how a question works, do not give the full answer. As well as this do not give the full text to an essay a student writes only lead them in the right direction on how to right it."));
-            }
-            catch (Exception ex)
-            {
-                OutputTextBox.Text = $"A unexpected error has occurred:\n{ex.Message}";
-            }
             finally
             {
                 Submit.IsEnabled = true;

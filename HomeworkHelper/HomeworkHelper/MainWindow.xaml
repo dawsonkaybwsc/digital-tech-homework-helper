@@ -12,7 +12,7 @@
             
             <TextBlock Text="Select AI Model:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
             <ComboBox Name="ModelComboBox" Height="32" Margin="0,0,0,15" SelectedIndex="0" VerticalContentAlignment="Center" FontSize="13">
-                <ComboBoxItem Content="GPT-4o Mini" Tag="openrouter/free"/>
+                <ComboBoxItem Content="OpenRouter Free" Tag="openrouter/free"/>
                 <ComboBoxItem Content="DeepSeek Chat" Tag="openrouter/free"/>
             </ComboBox>
 
@@ -21,10 +21,9 @@
             
             <Button Name="Submit" Content="Submit" Height="30" Width="140" Margin="0,0,0,20" Click="Submit_Click" FontSize="12" FontWeight="SemiBold"/>
             
-            <TextBlock Text="Output: " FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
-            <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8" Height="270">
-                <TextBox Name="OutputTextBox" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontSize="14" Foreground="#333333" Background="Transparent" BorderThickness="0" Text="Output:"/>
-            </Border>
+           <TextBlock Text="Output:" FontWeight="Medium" Margin="0,0,0,5" Foreground="#555555"/>
+            <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#F5F5F5" CornerRadius="4" Padding="8" Height="280">
+                <TextBox Name="OutputTextBox" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontSize="14" Foreground="#333333" Background="Transparent" BorderThickness="0" Text="Waiting for user response..."/> 
         </StackPanel>
     </Grid>
 </Window>
