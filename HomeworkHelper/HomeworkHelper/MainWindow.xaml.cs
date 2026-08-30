@@ -87,6 +87,14 @@ namespace HomeworkHelper
                 InputTextBox.Clear();
                 OutputTextBox.Text = "Conversation history cleared. You can start a new question.";
             }
+
+            private void InputTextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+            {
+                if (e.Key == System.Windows.Input.Key.Enter && !e.KeyboardDevice.Modifiers.HasFlag(System.Windows.Input.ModifierKeys.Shift))
+                {
+                    Submit_Click(sender, e);
+                }
+            }
         }
     }
 }
