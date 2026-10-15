@@ -34,7 +34,7 @@ public record OpenRouterRequest(
         private const string ApiKey = "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"; // the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
-       public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model) // sends the message and the model and it returns the message or error the AI gives
+       public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model) // sends the message and the model and it returns the message or error the AI gives.
         {
             var requestData = new OpenRouterRequest(
                 Model: model,
@@ -53,7 +53,7 @@ public record OpenRouterRequest(
                 var response = await _httpClient.SendAsync(request);
                 var responseBody = await response.Content.ReadAsStringAsync();
                 
-                if (!response.IsSuccessStatusCode) // if Openrouter has an error this shows the status code and message
+                if (!response.IsSuccessStatusCode) // if Openrouter has an error this shows the status code and message.
                 {
                    return $"API Error (Status {(int)response.StatusCode}): {responseBody}";
                 }
