@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
-    // this is the main window it handles al the button clicks and shows the AI's answer in the output box.
+    // this is the main window it handles all the button clicks and shows the AI's answer in the output box.
     public partial class MainWindow : Window
     {
         private readonly OpenRouterApi _api = new OpenRouterApi();
