@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
+    // this is the main window it handles al the button clicks and shows the AI's answer in the output box.
     public partial class MainWindow : Window
     {
         private readonly OpenRouterApi _api = new OpenRouterApi();
@@ -16,7 +17,7 @@ namespace HomeworkHelper
             ResetConversation();
         }
 
-        /// Clears the saved conversation so the AI starts clean,
+        /// clears the saved conversation so the AI starts clean,
         /// then adds the system prompt back in as the first message.
         private void ResetConversation()
         {
@@ -24,7 +25,7 @@ namespace HomeworkHelper
             _conversationHistory.Add(new OpenRouterMessage(Role: "system", Content: SystemPrompt
             ));
         }
-
+        // it runs when the submit button is pressed or when the enter button is hit
         private async void Submit_Click(object sender, RoutedEventArgs e)
         {
             string question = InputTextBox.Text?.Trim() ?? string.Empty;
