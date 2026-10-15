@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace HomeworkHelper
 {
-    /// this is the main window it handles al the button clicks and shows the AI's answer in the output box.
+    // this is the main window it handles al the button clicks and shows the AI's answer in the output box.
     public partial class MainWindow : Window
     {
         private readonly OpenRouterApi _api = new OpenRouterApi();
@@ -17,15 +17,15 @@ namespace HomeworkHelper
             ResetConversation();
         }
 
-        /// clears the saved conversation so the AI starts clean,
-        /// then adds the system prompt back in as the first message.
+        // clears the saved conversation so the AI starts clean,
+        // then adds the system prompt back in as the first message.
         private void ResetConversation()
         {
             _conversationHistory.Clear();
             _conversationHistory.Add(new OpenRouterMessage(Role: "system", Content: SystemPrompt
             ));
         }
-        /// it runs when the submit button is pressed or when the enter button is hit, it confirms the input and sends the question.
+        // it runs when the submit button is pressed or when the enter button is hit, it confirms the input and sends the question.
         private async void Submit_Click(object sender, RoutedEventArgs e)
         {
             string question = InputTextBox.Text?.Trim() ?? string.Empty;
@@ -41,7 +41,7 @@ namespace HomeworkHelper
                 selectedModel = modelTag;
             }
 
-            /// disables the submit button while processing a question so users can't spam submit
+            // disables the submit button while processing a question so users can't spam submit
             Submit.IsEnabled = false;
             InputTextBox.IsEnabled = false;
             ModelComboBox.IsEnabled = false;
@@ -53,11 +53,11 @@ namespace HomeworkHelper
                 Role: "user",
                 Content: question
                 ));
-            /// this sends all the past questions to the API and waits without freezing the app
+            // this sends all the past questions to the API and waits without freezing the app
             string response = await _api.GetCompletionAsync(_conversationHistory, selectedModel);
 
             OutputTextBox.Text = response;
-            /// this part makes it so it only saves the reply if there arent errors
+            // this part makes it so it only saves the reply if there arent errors
             if (!response.StartsWith("API Error") &&
                 !response.StartsWith("Network Error") &&
                 !response.StartsWith("An unexpected error occurred"))
@@ -75,7 +75,7 @@ namespace HomeworkHelper
             {
                 OutputTextBox.Text = $"An unexpected error occurred: {ex.Message}";
             }
-            /// this turns back on the controls even if theres an error
+            // this turns back on the controls even if theres an error
             finally
             {
                 Submit.IsEnabled = true;
@@ -90,7 +90,7 @@ namespace HomeworkHelper
             InputTextBox.Clear();
             OutputTextBox.Text = "Conversation history cleared. You can start a new question.";
         }
-        /// makes it so shift and enter are ignored so you can use that command to create new lines without it entering the question
+        // makes it so shift and enter are ignored so you can use that command to create new lines without it entering the question
         private void InputTextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == System.Windows.Input.Key.Enter && !e.KeyboardDevice.Modifiers.HasFlag(System.Windows.Input.ModifierKeys.Shift))
