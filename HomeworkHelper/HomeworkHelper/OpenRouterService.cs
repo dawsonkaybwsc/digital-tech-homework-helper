@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace HomeworkHelper
 {
-/// Matches the JSON the app sends: the model name and the list of messages.
+// Matches the JSON the app sends: the model name and the list of messages.
 public record OpenRouterRequest(
     [property: JsonPropertyName("model")] string Model,
     [property: JsonPropertyName("messages")] OpenRouterMessage[] Messages
@@ -27,14 +27,14 @@ public record OpenRouterRequest(
     public record OpenRouterResponse(
         [property: JsonPropertyName("choices")] OpenRouterChoice[] Choices
     );
-    /// this handles all the responses with the Openrouter API.
+    // this handles all the responses with the Openrouter API.
     public class OpenRouterApi
     {
         private static readonly HttpClient _httpClient = new HttpClient();
-        private const string ApiKey = "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"; /// the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
+        private const string ApiKey = "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"; // the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
-       public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model) /// sends the message and the model and it returns the message or error the AI gives
+       public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model) // sends the message and the model and it returns the message or error the AI gives
         {
             var requestData = new OpenRouterRequest(
                 Model: model,
@@ -53,7 +53,7 @@ public record OpenRouterRequest(
                 var response = await _httpClient.SendAsync(request);
                 var responseBody = await response.Content.ReadAsStringAsync();
                 
-                if (!response.IsSuccessStatusCode) /// if Openrouter has an error this shows the status code and message
+                if (!response.IsSuccessStatusCode) // if Openrouter has an error this shows the status code and message
                 {
                    return $"API Error (Status {(int)response.StatusCode}): {responseBody}";
                 }
@@ -67,7 +67,7 @@ public record OpenRouterRequest(
 
                 return "Error recieved. From OpenRouter";
             }
-            catch (HttpRequestException ex) /// if theres an network error or an unexpected one it returns an error to let the user know.
+            catch (HttpRequestException ex) // if theres an network error or an unexpected one it returns an error to let the user know.
             {
                 return $"Network error: {ex.Message}";
             }
