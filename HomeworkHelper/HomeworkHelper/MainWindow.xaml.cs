@@ -17,8 +17,7 @@ namespace HomeworkHelper
             ResetConversation();
         }
 
-        // clears the saved conversation so the AI starts clean,
-        // then adds the system prompt back in as the first message.
+        // clears the saved conversation so the AI starts clean, then adds the system prompt back in as the first message.
         private void ResetConversation()
         {
             _conversationHistory.Clear();
