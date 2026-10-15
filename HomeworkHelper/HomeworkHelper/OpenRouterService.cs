@@ -9,10 +9,11 @@ using System.Linq;
 
 namespace HomeworkHelper
 {
-/// A C# class corresponding to the JSON structure.
-        [property: JsonPropertyName("model")] string Model,
-        [property: JsonPropertyName("messages")] OpenRouterMessage[] Messages
-    );
+/// Matches the JSON the app sends: the model name and the list of messages.
+public record OpenRouterRequest(
+    [property: JsonPropertyName("model")] string Model,
+    [property: JsonPropertyName("messages")] OpenRouterMessage[] Messages
+);
 
     public record OpenRouterMessage(
         [property: JsonPropertyName("role")] string Role,
