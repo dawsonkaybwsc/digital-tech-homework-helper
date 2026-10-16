@@ -10,8 +10,8 @@
 5. Double click the HomeworkHelper.exe
 6. If windows shows “Windows protected your PC”, click More info, then Run anyway. This appears because the app isn’t digitally signed.
 <br>
-If the app doesn't open install the .NET 9 Desktop Runtime if you don’t have it. Go to
-[.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0), find .NET Desktop Runtime, and download the x64 Windows installer. Run it.
+If the app doesn't open install the .NET 9 Desktop Runtime if you don’t have it.
+Go to [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0), find .NET Desktop Runtime, and download the x64 Windows installer. Run it.
 
 <img width="681" height="334" alt="Screen Shot 2026-10-16 at 2 03 11 PM" src="https://github.com/user-attachments/assets/07e633fe-b126-4648-b5d8-1a7e0d55126d" />
 
