@@ -12,7 +12,7 @@ Windows 10 or 11, .NET 9 Desktop Runtime, an internet connection.
 <img width="441" height="421" alt="Screen Shot 2026-10-16 at 1 46 53 PM" src="https://github.com/user-attachments/assets/2ad00427-740a-42a4-9b96-25c26517f317" />
 
 2. Find the ZIP in your downloads folder, right click it and choose extract all, then click extract. Don’t run it from inside the ZIP.
-3. Open the extracted folder and go to HomeworkHelper -> HomeworkHelper -> bin → Debug -> net9.0-windows.
+3. Open the extracted folder and go to HomeworkHelper -> HomeworkHelper -> bin -> Debug -> net9.0-windows.
 4. Double click the HomeworkHelper.exe
 5. If windows shows “Windows protected your PC”, click More info, then Run anyway. This appears because the app isn’t digitally signed.
 
