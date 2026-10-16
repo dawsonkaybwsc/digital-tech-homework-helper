@@ -1,5 +1,6 @@
 # Digital Tech Homework Helper
-
+A windows app meant for students to assist in homework by giving hints and explanations instead of full answers.
+(This application is only supported on windows base computers)
 1. Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
 2. Click the green Code button, then Download ZIP.
 
@@ -24,4 +25,14 @@ Download the [Visual C++ Redistributable All-in-One package](https://www.techpow
 
 
 After installing everything, try opening the application again.
-(This application is only supported on windows base computers)
+
+# How to use the app
+In the drop down menu select the AI model you wish to use.
+In the text box type in the question you want to get help with and click "Submit" or hit the "Enter/Return" button on your keyboard.
+In the Output Box the AI should give you the help you need with the question you asked aslong as it was school work related.
+
+If you recieve a Network Error in the Output Box make your you are connected to the internet.
+
+This app was made for 12TDG Digital Technologies and it was built 100% in C# WPF on .NET9 using the free version of Openrouter API https://openrouter.ai/
+
+If you accidently come across the repo and find the Openrouter API key please do not use it malicously since it's for school purposes and it would make me very sad :(
