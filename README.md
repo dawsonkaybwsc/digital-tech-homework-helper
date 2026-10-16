@@ -1,6 +1,9 @@
 # Digital Tech Homework Helper
 A windows app meant for students to assist in homework by giving hints and explanations instead of full answers.
-(This application is only supported on windows base computers)
+
+Requirements
+Windows 10 or 11, .NET 9 Desktop Runtime, an internet connection.
+
 1. Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
 2. Click the green Code button, then Download ZIP.
 
