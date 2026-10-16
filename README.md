@@ -16,6 +16,8 @@ If windows shows “Windows protected your PC”, click More info, then Run anyw
 
 If the app doesn't open install the .NET 9 Desktop Runtime if you don’t have it. Go to [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0), find .NET Desktop Runtime, and download the x64 Windows installer. Run it.
 
+<img width="681" height="334" alt="Screen Shot 2026-10-16 at 2 03 11 PM" src="https://github.com/user-attachments/assets/07e633fe-b126-4648-b5d8-1a7e0d55126d" />
+
 If the application still won't open, make sure you have **.NET Framework**, **DirectX**, and **Microsoft Visual C++ Redistributable** installed.
 
 Download the [Visual C++ Redistributable All-in-One package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/), extract it, and run `install-all.bat`. The install process should take only about 5 minutes.
