@@ -1,10 +1,15 @@
 # Digital Tech Homework Helper
 
 Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
+<br>
 Click the green Code button, then Download ZIP.
+<br>
 Find the ZIP in your downloads folder, right click it and choose extract all, then click extract. Don’t run it from inside the ZIP.
+<br>
 Open the extracted folder and go to HomeworkHelper -> HomeworkHelper -> bin → Debug -> net9.0-windows.
+<br>
 Double click the HomeworkHelper.exe
+<br>
 If windows shows “Windows protected your PC”, click More info, then Run anyway. This appears because the app isn’t digitally signed.
 
 If the application won't open, make sure you have the **.NET Framework**, **DirectX**, and **Microsoft Visual C++ Redistributable** installed.
