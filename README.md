@@ -32,7 +32,7 @@ Download the [Visual C++ Redistributable All-in-One package](https://www.techpow
 
 After installing everything, try opening the application again.
 
-# How to use the app
+## How to use the app
 1. In the drop down menu select the AI model you wish to use.
 2. In the text box type in the question you want to get help with and click "Submit" or hit the "Enter/Return" button on your keyboard.
 3. In the Output Box the AI should give you the help you need with the question you asked as long as it was school work related.
