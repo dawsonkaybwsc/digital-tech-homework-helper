@@ -5,6 +5,8 @@ Requirements
 
 Windows 10 or 11, .NET 9 Desktop Runtime, an internet connection.
 
+How to download
+
 1. Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
 2. Click the green Code button, then Download ZIP.
 
