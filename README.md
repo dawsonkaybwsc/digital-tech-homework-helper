@@ -1,7 +1,7 @@
 # Digital Tech Homework Helper
 
 1. Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
-<br>
+
 2. Click the green Code button, then Download ZIP.
 <br>
 <img width="441" height="421" alt="Screen Shot 2026-10-16 at 1 46 53 PM" src="https://github.com/user-attachments/assets/2ad00427-740a-42a4-9b96-25c26517f317" />
