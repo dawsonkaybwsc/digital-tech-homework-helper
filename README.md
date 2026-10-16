@@ -14,7 +14,9 @@ Double click the HomeworkHelper.exe
 <br>
 If windows shows “Windows protected your PC”, click More info, then Run anyway. This appears because the app isn’t digitally signed.
 
-If the application won't open, make sure you have the **.NET Framework**, **DirectX**, and **Microsoft Visual C++ Redistributable** installed.
+Install the .NET 9 Desktop Runtime if you don’t have it. Go to [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0), find .NET Desktop Runtime, and download the x64 Windows installer. Run it.
+
+If the application still won't open, make sure you have **.NET Framework**, **DirectX**, and **Microsoft Visual C++ Redistributable** installed.
 
 Download the [Visual C++ Redistributable All-in-One package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/), extract it, and run `install-all.bat`. The install process should take only about 5 minutes.
 
