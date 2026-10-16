@@ -36,4 +36,4 @@ After installing everything, try opening the application again.
 2. In the text box type in the question you want to get help with and click "Submit" or hit the "Enter/Return" button on your keyboard.
 3. In the Output Box the AI should give you the help you need with the question you asked as long as it was school work related.
 
-This app was made for 12TDG Digital Technologies and it was built 100% in C# WPF on .NET 9 using the free version of Openrouter API https://openrouter.ai/
+This app was made for 12TDG Digital Technologies and it was built 100% in C# WPF on .NET 9 using the free version of Openrouter API🙃https://openrouter.ai/
