@@ -2,6 +2,7 @@
 A windows app meant for students to assist in homework by giving hints and explanations instead of full answers.
 
 Requirements
+
 Windows 10 or 11, .NET 9 Desktop Runtime, an internet connection.
 
 1. Go to https://github.com/dawsonkaybwsc/digital-tech-homework-helper
