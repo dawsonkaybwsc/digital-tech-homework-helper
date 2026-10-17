@@ -30,7 +30,8 @@ public record OpenRouterRequest(
     // this handles all the responses with the Openrouter API.
     public class OpenRouterApi
     {
-        // Key is stored encoded so it isn't plain text in the repo
+         private static readonly HttpClient _httpClient = new HttpClient();
+        // key is stored encoded so it isn't plain text in the repo
     private static readonly string ApiKey =
         System.Text.Encoding.UTF8.GetString(Convert.FromBase64String("c2stb3ItdjEtNDhiNzEzMzI5OTY1NDU3Y2ZjZjI5ODVmNmRjYTc0YjA0NjJjYzQ1NmQyMTdhNTdiMTFiMzNkN2I2NjgxOTYyMg==")); // the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
