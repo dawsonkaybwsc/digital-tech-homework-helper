@@ -47,3 +47,17 @@ C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\Home
 C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.dll
 C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\refint\HomeworkHelper.dll
 C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.pdb
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\bin\Debug\net9.0-windows\HomeworkHelper.exe
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\bin\Debug\net9.0-windows\HomeworkHelper.deps.json
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\bin\Debug\net9.0-windows\HomeworkHelper.runtimeconfig.json
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\bin\Debug\net9.0-windows\HomeworkHelper.dll
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\bin\Debug\net9.0-windows\HomeworkHelper.pdb
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.g.resources
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.AssemblyInfoInputs.cache
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.AssemblyInfo.cs
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.csproj.CoreCompileInputs.cache
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.sourcelink.json
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\HomeworkHelper.genruntimeconfig.cache
+C:\Users\johna\Documents\GitHub\digital-tech-homework-helper\HomeworkHelper\HomeworkHelper\obj\Debug\net9.0-windows\ref\HomeworkHelper.dll
