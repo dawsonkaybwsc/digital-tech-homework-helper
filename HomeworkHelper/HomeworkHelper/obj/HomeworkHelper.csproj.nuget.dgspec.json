@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mtrxc\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj": {}
+    "C:\\Users\\johna\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mtrxc\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj": {
+    "C:\\Users\\johna\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mtrxc\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
+        "projectUniqueName": "C:\\Users\\johna\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
         "projectName": "HomeworkHelper",
-        "projectPath": "C:\\Users\\mtrxc\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
-        "packagesPath": "C:\\Users\\mtrxc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mtrxc\\OneDrive\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\",
+        "projectPath": "C:\\Users\\johna\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\HomeworkHelper.csproj",
+        "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johna\\Documents\\GitHub\\digital-tech-homework-helper\\HomeworkHelper\\HomeworkHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mtrxc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0-windows"
@@ -62,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.319/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
