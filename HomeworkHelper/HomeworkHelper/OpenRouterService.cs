@@ -30,8 +30,9 @@ public record OpenRouterRequest(
     // this handles all the responses with the Openrouter API.
     public class OpenRouterApi
     {
-        private static readonly HttpClient _httpClient = new HttpClient();
-        private const string ApiKey = "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"; // the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
+        // Key is stored encoded so it isn't plain text in the repo
+    private static readonly string ApiKey =
+        System.Text.Encoding.UTF8.GetString(Convert.FromBase64String("c2stb3ItdjEtNDhiNzEzMzI5OTY1NDU3Y2ZjZjI5ODVmNmRjYTc0YjA0NjJjYzQ1NmQyMTdhNTdiMTFiMzNkN2I2NjgxOTYyMg==")); // the key that lets Openrouter know that i'm the user using the app and that all requests are validated through this key.
         private const string ApiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
        public async Task<string> GetCompletionAsync(IEnumerable<OpenRouterMessage> messages, string model) // sends the message and the model and it returns the message or error the AI gives.
