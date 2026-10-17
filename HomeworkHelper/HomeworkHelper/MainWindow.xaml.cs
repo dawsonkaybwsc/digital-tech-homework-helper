@@ -58,8 +58,8 @@ namespace HomeworkHelper
             OutputTextBox.Text = response;
             // this part makes it so it only saves the reply if there arent errors.
             if (!response.StartsWith("API Error") &&
-                !response.StartsWith("Network Error") &&
-                !response.StartsWith("An unexpected error occurred"))
+                !response.StartsWith("Network error") &&
+                !response.StartsWith("Unexpected error"))
 
             {
                 _conversationHistory.Add(new OpenRouterMessage(
