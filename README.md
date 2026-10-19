@@ -13,18 +13,18 @@ Windows 10 or 11, .NET 9 Desktop Runtime, an internet connection.
 
 2. Find the ZIP in your downloads folder, right click it and choose extract all, then click extract. Don’t run it from inside the ZIP.
 3. Open the extracted folder and go to HomeworkHelper -> HomeworkHelper -> bin -> Debug -> net9.0-windows.
-4. Double click the HomeworkHelper.exe
-5. If windows shows “Windows protected your PC”, click More info, then Run anyway. This appears because the app isn’t digitally signed.
+4. Double click the HomeworkHelper.exe file.
+5. If windows shows “Windows protected your PC”, click More info, then Run anyway. This shows because the app isn’t digitally signed.
 
 
-If the app doesn't open install the .NET 9 Desktop Runtime if you don’t have it.
+If the app doesn't open install the **.NET 9 Desktop Runtime** if you don’t have it.
 Go to [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0) find .NET Desktop Runtime, and download the x64 Windows installer. Run it.
 
 <img width="681" height="334" alt="Screen Shot 2026-10-16 at 2 03 11 PM" src="https://github.com/user-attachments/assets/07e633fe-b126-4648-b5d8-1a7e0d55126d" />
 
 If the application still won't open, make sure you have **.NET Framework**, **DirectX**, and **Microsoft Visual C++ Redistributable** installed.
 
-Download the [Visual C++ Redistributable All-in-One package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/), extract it, and run `install-all.bat`. The install process should take only about 5 minutes.
+Download the [Visual C++ Redistributable All-in-One package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/), extract it, and run **`install-all.bat`**. The install process should take only about 5 minutes.
 
 <img width="384" height="259" alt="Screen Shot 2026-10-16 at 9 07 29 AM" src="https://github.com/user-attachments/assets/b3a527ad-6df1-43df-a5f0-0a2062b3f1b2" />
 
@@ -36,4 +36,4 @@ After installing everything, try opening the application again.
 2. In the text box type in the question you want to get help with and click "Submit" or hit the "Enter/Return" button on your keyboard.
 3. In the Output Box the AI should give you the help you need with the question you asked as long as it was school work related.
 
-This app was made for 12TDG Digital Technologies and it was built 100% in C# WPF on .NET 9 using the free version of Openrouter API🙃https://openrouter.ai/
+This app was made for 12TDG Digital Technologies and it was built 100% in C# WPF on .NET 9 using the free version of OpenRouter API🙃https://openrouter.ai/
